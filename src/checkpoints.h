@@ -4,6 +4,8 @@
 #ifndef BITCOIN_CHECKPOINT_H
 #define  BITCOIN_CHECKPOINT_H
 
+#define CHECKPOINT_MAX_SPAN (60 * 60) // max 1 hour before latest block
+
 #include <map>
 #include "net.h"
 #include "util.h"
